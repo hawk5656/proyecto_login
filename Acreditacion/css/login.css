@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* CSS Document */
+.olvide
+		{
+			font-size:125%;
+			font-family:"Arial Black", Gadget, sans-serif;
+			text-decoration:underline;
+			margin-top:10px;
+		}
+#nombrelg
+		{
+			margin-top:20px;
+		}
+#nombrelg input
+		{
+			width:80%;
+		}		
+#nombrelg label 
+		{
+			margintop:15px;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:20px;
+			color:#036;			
+		}
+#passwordlg
+		{
+			margin-top:20px;
+		}
+#passwordlg input
+		{
+			width:80%;
+		}		
+#passwordlg label 
+		{
+			margintop:15px;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:20px;
+			color:#036;			
+		}
+
+#botonlg
+		{
+			margin:30px;
+			margin-left: 30%;
+		}
+#loglg
+		{
+			margin-top: 20px;
+		}	
+#usuariolg
+		{
+			margin:20px;
+		}
+#password
+		{
+			margin:20px;
+		}	
+#imglogo
+		{
+			vertical-align:center;
+		}
+#botonsm
+		{
+			margin-left: 20%;
+			margin-top: 20px;
+		}
+		
+#passwordsm
+		{
+			margin-top:20px;
+		}
+		
+#passwordsm label 
+		{
+			margintop:10px;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:20px;
+			color:#036;			
+		}
+#botonxs
+		{
+			width: 100%;
+		}		
+#passwordsm input
+		{
+			width: 75%;
+			height: 40px;
+		}
+		
+#nombresm label
+		{
+			margintop:10px;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:20px;
+			color:#036;	
+		}
+			
+#nombresm input
+		{
+			margin-left:19px;
+			width: 75%;
+			height: 40px;
+		}
+#visiblesm
+		{
+			marign-top: 20px;
+		}
+		
+#containerlog
+		{
+			margin-top: 10px;
+		}
+
+#recuperaxs
+		{
+			margin-top: 20px;
+		}
+#visiblexs
+		{
+			text-align:center;
+			margin-left: center;
+		}
+
+#visiblexs legend
+		{
+			text-decoration: underline;
+		}
+
+#passwordxs
+		{
+			margin-top: 10px;
+		}
+.centro
+		{
+			text-align:center;
+			margin-left:auto;
+		}
+		
+#usuarioxs
+		{
+			margin-top: 10px;
+		}
+
+#botonxs
+		{
+			margin-top: 20px;
+		}
+
+.footer
+		{
+		    width:100%;
+		    height:100%;
+		    display:block;
+		    margin-top: 0 auto auto auto;   
+		}
