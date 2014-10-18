@@ -7,6 +7,52 @@
 			text-decoration:underline;
 			margin-top:10px;
 		}
+#nombremd
+		{
+			margin-top:20px;
+		}
+#nombremd input
+		{
+			width:80%;
+		}		
+#nombremd label 
+		{
+			margintop:15px;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:20px;
+			color:#036;			
+		}
+#passwordmd
+		{
+			margin-top:20px;
+		}
+#passwordmd input
+		{
+			width:80%;
+		}		
+#passwordmd label 
+		{
+			margintop:15px;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:20px;
+			color:#036;			
+		}
+
+#botonmd
+		{
+			margin:30px;
+			margin-left: 30%;
+		}
+#logmd
+		{
+			margin-top: 20px;
+		}	
+#usuariomd
+		{
+			margin:20px;
+		}
+		
+		
 #nombrelg
 		{
 			margin-top:20px;
@@ -51,10 +97,10 @@
 		{
 			margin:20px;
 		}
-#password
-		{
-			margin:20px;
-		}	
+		
+		
+
+		
 #imglogo
 		{
 			vertical-align:center;

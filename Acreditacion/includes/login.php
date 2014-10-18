@@ -5,171 +5,168 @@
             
 <!-- .............................................Se crea la vista para dispositivos extra small...........................................................-->
 
-        		<form id="login" class="border-radio form-group" action="../Acreditacion/index.php" onclick="">
-                	                  
-
-					<div id="visiblexs" class="visible-xs-block xs">
-                    			<legend> Sistema de Acreditacion </legend>
-                                <div id="usuarioxs" class="centro">
-                                   <!-- <label for="" class="border-radius">Usuario</label> -->
-                                    <input type="text" class="form-control" required="required" placeholder="User">
-                                </div>
-                                
-                                <div id="passwordxs" class="">
-                                    <!-- <label for="" class="">Password</label> -->
-                                    <input type="password" class="form-control" required="required" placeholder="Password">
-                                </div>
-
-                                <div  id="botonxs" class="">
-                                    <input type="submit" class="btn btn-default btn-lg" value="Acceso">
-                                </div>
-                                <div id="recuperaxs olvide">
-                                <a  href="../Acreditacion/recuperacontrasela.php">Olvide mi contraseña</a>
-                                </div>
-                     </div>
-                         
-                         </form>
+                <form id="login" class="border-radio form-group" action="code_files/process_login.php" method="post" name="login_form">
+                                          
+                        <div id="visiblexs" class="visible-xs-block xs">
+                                    <legend> Sistema de Acreditacion </legend>
+                                    <div id="usuarioxs" class="centro">
+                                       <!-- <label for="" class="border-radius">Usuario</label> -->
+                                        <input type="text" class="form-control" required="required" placeholder="User" name="email">
+                                    </div>
+                                    
+                                    <div id="passwordxs" class="">
+                                        <!-- <label for="" class="">Password</label> -->
+                                        <input type="password" class="form-control" required="required" placeholder="Password" name="password" id="password" >
+                                    </div>
+    
+                                    <div  id="botonxs" class="">
+                                        <input type="submit" class="btn btn-default btn-lg" value="Acceso" onclick="return formhash(this.form, this.form.password);">
+                                    </div>
+                                    <div id="recuperaxs olvide">
+                                    <a  href="../Acreditacion/recuperacontrasela.php">Olvide mi contraseña</a>
+                                    </div>
+                         </div>
+                             
+                   </form>
                          
 <!-- .............................................Se crea la vista para dispositivos small .............................................................-->
                        
-                         <form id="login" class="border-radio form-group" action="../Acreditacion/index.php" onclick="">
-                                
-
-                       
-        			<div id="visiblesm" class="visible-sm-block container">
-                                
-                                
-                                    <div class="row">
-		                                	<div class="centro">
-		                                		 <legend><h3><strong>Sistema de Acreditacion</strong></h3></legend>
-		                                	</div>
-		                                </div>
-                                
-                                    	<div id="usuariosm" class="">
-                                        	<div id="imglog" class="col-sm-3">
-                                             	<img class="img-responsive" src="../acreditacion/img/candado.gif" alt="">
-                                            </div>
-                                            
-                                        	<div id="logsm" class="col-sm-9">
-                                            		<div id="nombresm" class="form-inline centro">
-                                                        Usuario
-                                                        <input type="text" class="form-control" required="required">
+                <form id="login" class="border-radio form-group" action="code_files/process_login.php" method="post" name="login_form">
+                                        
+        
+                               
+                            <div id="visiblesm" class="visible-sm-block container">
+                                        
+                                        
+                                            <div class="row">
+                                                    <div class="centro" style="margin:0;">
+                                                         <legend><h3><strong>Sistema de Acreditacion</strong></h3></legend>
+                                                    </div>
+                                                </div>
+                                        
+                                                <div id="usuariosm" class="">
+                                                    <div id="imglog" class="col-sm-3">
+                                                        <img class="img-responsive" src="../acreditacion/img/candado.gif" alt="">
                                                     </div>
                                                     
-                                                    <div  id="passwordsm"class="form-inline centro">
-                                                        Password 
-                                                        <input type="password" class="form-control" required="required">
-                                                     </div>
-                                                     
-                                                           <div id="botonsm" class="" >
-                                                                
-                                                                <div class="col-sm-4">
-                                                                    <input type="submit" class="btn btn-default btn-lg " value="Acceso">
-                                                                </div>      
-                                                                <div class="col-sm-8 olvide">
-                                                                    <a  href="../Acreditacion/recuperacontrasela.php">Olvide mi contraseña</a>
-                                                                </div>
-                                            				</div>
-                                          			  </div>        
-
-                                        	</div>
-
-                                            
-                                            
-                              
-                     </div>
-
-                         </form>
+                                                    <div id="logsm" class="col-sm-9">
+                                                            <div id="nombresm" class="form-inline centro">
+                                                                Usuario
+                                                                <input type="text" class="form-control" required="required" name="email">
+                                                            </div>
+                                                            
+                                                            <div  id="passwordsm"class="form-inline centro">
+                                                                Password 
+                                                                <input type="password" class="form-control" required="required" name="password" id="password" >
+                                                             </div>
+                                                             
+                                                                   <div id="botonsm" class="" >
+                                                                        
+                                                                        <div class="col-sm-4">
+                                                                            <input type="submit" class="btn btn-default btn-lg " value="Acceso" onclick="return formhash(this.form, this.form.password);">
+                                                                        </div>      
+                                                                        <div class="col-sm-8 olvide">
+                                                                            <a  href="../Acreditacion/recuperacontrasela.php">Olvide mi contraseña</a>
+                                                                        </div>
+                                                                    </div>
+                                                              </div>        
+        
+                                                    </div>       
+                             </div>
+        
+                       </form>
 
 <!-- .............................................Se crea la vista para dispositivos Medianos.............................................................-->
 
-                         <form id="login" class="border-radio form-group" action="../Acreditacion/index.php" onclick="">
-
-        			<div id="visiblesm" class="visible-md container">
-                                        <div class="row">
-                                            <div class="centro">
-                                                 <legend><h3><strong>Sistema de Acreditacion</strong></h3></legend>
-                                            </div>
-		                                </div>
-                                
-                                    	<div id="usuariomd" class="">
-                                        	<div id="imglog" class="col-md-3">
-                                             	<img class="img-responsive" src="../acreditacion/img/candado.gif" alt="">
-                                            </div>
+                <form id="login" class="border-radio form-group" action="code_files/process_login.php" method="post" name="login_form">
+        
+                            <div id="visiblemd" class="visible-md container">
+                                       <div class="row">
+                                                <div class="centro">
+                                                     <legend><h3><strong>Sistema de Acreditacion</strong></h3></legend>
+                                                </div>
+                                        </div>
                                             
-                                        	<div id="logsm" class="col-md-9">
-                                            		<div id="nombremd" class="form-inline centro">
-                                                        Usuario
-                                                        <input type="text" class="form-control" required="required">
+                                        <div id="usuariomd" class="">
+                                             <div id="imglog" class="col-md-3">
+                                                        <img class="img-responsive" src="../acreditacion/img/candado.gif" alt="">
                                                     </div>
                                                     
-                                                    <div  id="passwordmd"class="form-inline centro">
-                                                        Password 
-                                                        <input type="password" class="form-control" required="required">
-                                                     </div>
-                                            </div>        
-
-
-
-                                            <div id="botonmd" class="row">
-                                                     	<div class="col-md-5 olvide">
-                                                     		<a  href="../Acreditacion/recuperacontrasela.php">Olvide mi contraseña</a>
-                                                     	</div>
-                                                     	<div class="col-md-3">
-                                                     		<input type="submit" class="btn btn-default btn-lg " value="Acceso">
-                                                     	</div>      
-                                            </div>
-                                    </div>
-        			
-                      </div>
-
-                          </form>
+                                                    <div id="logmd" class="col-md-9">
+                                                            
+                                                           <div id="nombremd" class="form-inline centro">
+                                                               <label> Usuario </label>
+                                                                <input type="text" class="form-control" required="required" name="email">
+                                                           </div>
+                                                            
+                                                           <div  id="passwordmd"class="form-inline centro">
+                                                           		<label>Password </label>
+                                                                <input type="password" class="form-control" required="required" name="password" id="password" >
+                                                            </div>
+                                                            
+                                                            <div id="botonmd" class="">
+                                                                <div class="col-md-4">
+                                                                    <input type="submit" class="btn btn-default btn-md" value="Acceso" onclick="return formhash(this.form, this.form.password);">
+                                                                </div>  
+                                                                <div class="col-md-8 olvide">
+                                                                    <a  href="../Acreditacion/recuperacontrasela.php">Olvide mi contraseña</a>
+                                                                </div>
+                                                                    
+                                                            </div>
+                                                             
+                                                     </div>        
+        
+                                               </div>
+                            
+                              </div>
+        
+                       </form>
 
 <!-- .............................................Se crea la vista para dispositivos Pantalla larga.......................................................-->
 
-                         <form id="login" class="border-radio form-group" action="../Acreditacion/index.php" onclick="">
-                    
-
-                      <div id="visiblesm" class="visible-lg container">
-                               <div class="row">
-                                        <div class="centro">
-                                             <legend><h3><strong>Sistema de Acreditacion</strong></h3></legend>
+                <form id="login" class="border-radio form-group" action="code_files/process_login.php" method="post" name="login_form">
+                            
+        
+                              <div id="visiblesm" class="visible-lg container">
+                                       <div class="row">
+                                                <div class="centro">
+                                                     <legend><h3><strong>Sistema de Acreditacion</strong></h3></legend>
+                                                </div>
                                         </div>
-                                </div>
-                                    
-                                <div id="usuariolg" class="">
-                                     <div id="imglog" class="col-lg-3">
-                                             	<img class="img-responsive" src="../acreditacion/img/candado.gif" alt="">
-                                            </div>
                                             
-                                        	<div id="loglg" class="col-lg-9">
-                                            		
-                                                   <div id="nombrelg" class="form-inline centro">
-                                                       <label> Usuario </label>
-                                                        <input type="text" class="form-control" required="required">
-                                                   </div>
-                                                    
-                                                   <div  id="passwordlg"class="form-inline centro">
-                                                   <label>Password </label>
-                                                        <input type="password" class="form-control" required="required">
+                                        <div id="usuariolg" class="">
+                                             <div id="imglog" class="col-lg-3">
+                                                        <img class="img-responsive" src="../acreditacion/img/candado.gif" alt="">
                                                     </div>
                                                     
-                                                    <div id="botonlg" class="">
-														<div class="col-lg-4">
-                                                     		<input type="submit" class="btn btn-default btn-lg" value="Acceso">
-                                                     	</div>  
-                                                     	<div class="col-lg-6 olvide">
-                                                     		<a  href="../Acreditacion/recuperacontrasela.php">Olvide mi contraseña</a>
-                                                     	</div>
-                                                     	    
-                                         			</div>
-                                                     
-                                             </div>        
-
-                                       </div>
-        			
-                      </div>
-        		</form>
+                                                    <div id="loglg" class="col-lg-9">
+                                                            
+                                                           <div id="nombrelg" class="form-inline centro">
+                                                               <label> Usuario </label>
+                                                                <input type="text" class="form-control" required="required" name="email">
+                                                           </div>
+                                                            
+                                                           <div  id="passwordlg"class="form-inline centro">
+                                                           <label>Password </label>
+                                                                <input type="password" class="form-control" required="required" name="password" id="password" >
+                                                            </div>
+                                                            
+                                                            <div id="botonlg" class="">
+                                                                <div class="col-lg-4">
+                                                                    <input type="submit" class="btn btn-default btn-lg" value="Acceso" onclick="return formhash(this.form, this.form.password);">
+                                                                </div>  
+                                                                <div class="col-lg-6 olvide">
+                                                                    <a  href="../Acreditacion/recuperacontrasela.php">Olvide mi contraseña</a>
+                                                                </div>
+                                                                    
+                                                            </div>
+                                                             
+                                                     </div>        
+        
+                                               </div>
+                            
+                              </div>
+                        </form>
  
        		</div>
 </div>

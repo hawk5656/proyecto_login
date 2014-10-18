@@ -1,3 +1,17 @@
+<!-- codigo conect -->
+<?php
+
+	include_once 'code_files/db_connect.php';
+	include_once 'code_files/functions.php';
+	
+	if(isset($_GET['error']))
+		
+		{
+			//echo '<p class="error">Error al logear</p>';
+		}
+		
+?>
+		
 <!-- Referencia CSS-->
 <link rel="stylesheet" href="../Acreditacion/css/bootstrap.css" type="text/css">
 <link rel="stylesheet" href="../Acreditacion/css/footer.css" type="text/css" charset="UTF-8">
@@ -9,6 +23,11 @@
 <script src="../Acreditacion/js/bootstrap.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
+<!-- parte de cristobal -->
+<script type="text/JavaScript" src="js/sha512.js"></script> 
+<script type="text/JavaScript" src="js/forms.js"></script>
+
 
 <!-- Referencia  METADATA-->
 <meta charset="utf-8">
