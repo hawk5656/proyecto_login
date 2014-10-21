@@ -119,7 +119,7 @@ font-size:13px;
 #cucea
 	{
 		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-		font-size:12px;
+		font-size:100%;
 		margin-top:20px;
 		color:#FFF;
 		background-color:#036;

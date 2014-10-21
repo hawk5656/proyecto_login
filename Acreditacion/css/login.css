@@ -1,5 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
+
+.izquierda
+		{
+			text-align:left;
+		}
+.derecha
+		{
+			text-align:right;
+		}
 .olvide
 		{
 			font-size:125%;

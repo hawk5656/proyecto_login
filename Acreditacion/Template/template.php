@@ -22,8 +22,8 @@
                                     <div  id="botonxs" class="">
                                         <input type="submit" class="btn btn-default btn-lg" value="Acceso" onclick="return revisamov(this.form.email, this.form.password);" >
                                     </div>
-                                    <div id="recuperaxs" class="olvide">
-                                    <a  href="../Acreditacion/index.php?opcion=2">Olvide mi contraseña</a>
+                                    <div id="recuperaxs olvide">
+                                    <a  href="../index.php?opcion=2">Olvide mi contraseña</a>
                                     </div>
                          </div>
                              
@@ -31,7 +31,7 @@
                          
 <!-- .............................................Se crea la vista para dispositivos small .............................................................-->
                        
-                <form id="login" class="border-radio form-group" action="code_files/process_login.php" method="post" name="login_form">
+                <form id="login" class="border-radio form-group" action="../code_files/process_login.php" method="post" name="login_form">
                                         
         
                                
@@ -46,7 +46,7 @@
                                         
                                                 <div id="usuariosm" class="">
                                                     <div id="imglog" class="col-sm-3">
-                                                        <img class="img-responsive" src="../acreditacion/img/candado.gif" alt="">
+                                                        <img class="img-responsive" src="../img/candado.gif" alt="">
                                                     </div>
                                                     
                                                     <div id="logsm" class="col-sm-9">
@@ -66,7 +66,7 @@
                                                                             <input type="submit" class="btn btn-default btn-lg " value="Acceso" onclick="return formhash(this.form, this.form.password);">
                                                                         </div>      
                                                                         <div class="col-sm-8 olvide">
-                                                                            <a  href="../Acreditacion/index.php?opcion=2">Olvide mi contraseña</a>
+                                                                            <a  href="../index.php?opcion=2">Olvide mi contraseña</a>
                                                                         </div>
                                                                     </div>
                                                               </div>        
@@ -78,7 +78,7 @@
 
 <!-- .............................................Se crea la vista para dispositivos Medianos.............................................................-->
 
-                <form id="login" class="border-radio form-group" action="code_files/process_login.php" method="post" name="login_form">
+                <form id="login" class="border-radio form-group" action="../code_files/process_login.php" method="post" name="login_form">
         
                             <div id="visiblemd" class="visible-md container">
                                        <div class="row">
@@ -89,7 +89,7 @@
                                             
                                         <div id="usuariomd" class="">
                                              <div id="imglog" class="col-md-3">
-                                                        <img class="img-responsive" src="../acreditacion/img/candado.gif" alt="">
+                                                        <img class="img-responsive" src="../img/candado.gif" alt="">
                                                     </div>
                                                     
                                                     <div id="logmd" class="col-md-9">
@@ -109,7 +109,7 @@
                                                                     <input type="submit" class="btn btn-default btn-md" value="Acceso" onclick="return formhash(this.form, this.form.password);">
                                                                 </div>  
                                                                 <div class="col-md-8 olvide">
-                                                                    <a  href="../Acreditacion/index.php?opcion=2">Olvide mi contraseña</a>
+                                                                    <a  href="../index.php?opcion=2">Olvide mi contraseña</a>
                                                                 </div>
                                                                     
                                                             </div>
@@ -124,7 +124,7 @@
 
 <!-- .............................................Se crea la vista para dispositivos Pantalla larga.......................................................-->
 
-                <form id="login" class="border-radio form-group" action="code_files/process_login.php" method="post" name="login_form">
+                <form id="login" class="border-radio form-group" action="../code_files/process_login.php" method="post" name="login_form">
                             
         
                               <div id="visiblesm" class="visible-lg container">
@@ -136,7 +136,7 @@
                                             
                                         <div id="usuariolg" class="">
                                              <div id="imglog" class="col-lg-3">
-                                                        <img class="img-responsive" src="../acreditacion/img/candado.gif" alt="">
+                                                        <img class="img-responsive" src="../img/candado.gif" alt="">
                                                     </div>
                                                     
                                                     <div id="loglg" class="col-lg-9">
@@ -156,7 +156,7 @@
                                                                     <input type="submit" class="btn btn-default btn-lg" value="Acceso" onclick="return formhash(this.form, this.form.password);">
                                                                 </div>  
                                                                 <div class="col-lg-6 olvide">
-                                                                    <a  href="../Acreditacion/index.php?opcion=2">Olvide mi contraseña</a>
+                                                                    <a  href="../index.php?opcion=2">Olvide mi contraseña</a>
                                                                 </div>
                                                                     
                                                             </div>

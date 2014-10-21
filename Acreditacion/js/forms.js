@@ -16,6 +16,23 @@ function formhash(form, password){
 	return true;
 }
 
+function revisamov(email, pass)
+	{
+		//alert('forma'+email.value+ 'pass'+pass.value );
+		if(email.value!="")
+			{
+			}
+		if(pass.value!="")
+			{
+			}
+		else
+			{
+			
+				alert('Favor de llenar los dos campos');
+				window.location('../index.php');
+			}
+	}
+
 function regformhash(form, uid, email, password, conf){
 
 	var errores = new Array();

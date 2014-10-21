@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<?php session_start(); ?>
 <title>Acreditacion</title>
 <?php include_once'../Acreditacion/includes/links.php'; ?>
 <?php include_once'../Acreditacion/includes/header/header.php'; ?>
@@ -14,8 +15,9 @@
 </div>
 <!-- -->
 
-
-<?php include_once '../acreditacion/includes/login.php';?>
+<?php	  include_once'../Acreditacion/switchmenu.php'; ?>
+ 
+<?php // include_once '../acreditacion/includes/login.php';?>
 <?php include_once '../acreditacion/includes/footer/footer.php'; ?>
 </body>
 </html>
